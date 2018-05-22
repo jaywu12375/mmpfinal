@@ -1,0 +1,63 @@
+body {
+  font-family: Avenir;
+  padding: 40px;
+  background: #35373E;
+}
+
+h2 {
+  font-family: Brush Script MT;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #BC1552;
+}
+
+.leftcolumn { 
+  float: left;
+  width: 70%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: #4C5A89;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card2 {
+  background-color: #9F9750;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #BC1552;
+  margin-top: 20px;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
